@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		CAC8F8EE2740F0A000A11E21 /* Movie+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC8F8EC2740F0A000A11E21 /* Movie+CoreDataClass.swift */; };
 		CAC8F8EF2740F0A000A11E21 /* Movie+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC8F8ED2740F0A000A11E21 /* Movie+CoreDataProperties.swift */; };
+		CAC8F8F12741881600A11E21 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC8F8F02741881600A11E21 /* ContentView.swift */; };
+		CAC8F8F32741882600A11E21 /* CoreDataProject.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = CAC8F8F22741882600A11E21 /* CoreDataProject.xcdatamodel */; };
 		CADF29122739022F00B2944E /* CoreDataProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADF29112739022F00B2944E /* CoreDataProjectApp.swift */; };
 		CADF29142739022F00B2944E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADF29132739022F00B2944E /* ContentView.swift */; };
 		CADF29162739023500B2944E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CADF29152739023500B2944E /* Assets.xcassets */; };
@@ -20,6 +22,8 @@
 /* Begin PBXFileReference section */
 		CAC8F8EC2740F0A000A11E21 /* Movie+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Movie+CoreDataClass.swift"; path = "CoreDataProject/Movie+CoreDataClass.swift"; sourceTree = "<group>"; };
 		CAC8F8ED2740F0A000A11E21 /* Movie+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Movie+CoreDataProperties.swift"; path = "CoreDataProject/Movie+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		CAC8F8F02741881600A11E21 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CAC8F8F22741882600A11E21 /* CoreDataProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; name = CoreDataProject.xcdatamodel; path = CoreDataProject/CoreDataProject.xcdatamodeld/CoreDataProject.xcdatamodel; sourceTree = "<group>"; };
 		CADF290E2739022F00B2944E /* CoreDataProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CADF29112739022F00B2944E /* CoreDataProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataProjectApp.swift; sourceTree = "<group>"; };
 		CADF29132739022F00B2944E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -43,6 +47,7 @@
 		CADF29052739022F00B2944E = {
 			isa = PBXGroup;
 			children = (
+				CAC8F8F22741882600A11E21 /* CoreDataProject.xcdatamodel */,
 				CAC8F8EC2740F0A000A11E21 /* Movie+CoreDataClass.swift */,
 				CAC8F8ED2740F0A000A11E21 /* Movie+CoreDataProperties.swift */,
 				CADF29102739022F00B2944E /* CoreDataProject */,
@@ -63,6 +68,7 @@
 			children = (
 				CADF29112739022F00B2944E /* CoreDataProjectApp.swift */,
 				CADF29132739022F00B2944E /* ContentView.swift */,
+				CAC8F8F02741881600A11E21 /* ContentView.swift */,
 				CADF29152739023500B2944E /* Assets.xcassets */,
 				CADF291A2739023500B2944E /* Persistence.swift */,
 				CADF291C2739023500B2944E /* CoreDataProject.xcdatamodeld */,
@@ -150,7 +156,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CADF291B2739023500B2944E /* Persistence.swift in Sources */,
+				CAC8F8F32741882600A11E21 /* CoreDataProject.xcdatamodel in Sources */,
 				CADF29142739022F00B2944E /* ContentView.swift in Sources */,
+				CAC8F8F12741881600A11E21 /* ContentView.swift in Sources */,
 				CADF291E2739023500B2944E /* CoreDataProject.xcdatamodeld in Sources */,
 				CAC8F8EE2740F0A000A11E21 /* Movie+CoreDataClass.swift in Sources */,
 				CAC8F8EF2740F0A000A11E21 /* Movie+CoreDataProperties.swift in Sources */,
