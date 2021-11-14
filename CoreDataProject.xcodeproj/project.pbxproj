@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CAC8F8EE2740F0A000A11E21 /* Movie+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC8F8EC2740F0A000A11E21 /* Movie+CoreDataClass.swift */; };
+		CAC8F8EF2740F0A000A11E21 /* Movie+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC8F8ED2740F0A000A11E21 /* Movie+CoreDataProperties.swift */; };
 		CADF29122739022F00B2944E /* CoreDataProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADF29112739022F00B2944E /* CoreDataProjectApp.swift */; };
 		CADF29142739022F00B2944E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADF29132739022F00B2944E /* ContentView.swift */; };
 		CADF29162739023500B2944E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CADF29152739023500B2944E /* Assets.xcassets */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CAC8F8EC2740F0A000A11E21 /* Movie+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Movie+CoreDataClass.swift"; path = "CoreDataProject/Movie+CoreDataClass.swift"; sourceTree = "<group>"; };
+		CAC8F8ED2740F0A000A11E21 /* Movie+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Movie+CoreDataProperties.swift"; path = "CoreDataProject/Movie+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		CADF290E2739022F00B2944E /* CoreDataProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CADF29112739022F00B2944E /* CoreDataProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataProjectApp.swift; sourceTree = "<group>"; };
 		CADF29132739022F00B2944E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -39,6 +43,8 @@
 		CADF29052739022F00B2944E = {
 			isa = PBXGroup;
 			children = (
+				CAC8F8EC2740F0A000A11E21 /* Movie+CoreDataClass.swift */,
+				CAC8F8ED2740F0A000A11E21 /* Movie+CoreDataProperties.swift */,
 				CADF29102739022F00B2944E /* CoreDataProject */,
 				CADF290F2739022F00B2944E /* Products */,
 			);
@@ -146,6 +152,8 @@
 				CADF291B2739023500B2944E /* Persistence.swift in Sources */,
 				CADF29142739022F00B2944E /* ContentView.swift in Sources */,
 				CADF291E2739023500B2944E /* CoreDataProject.xcdatamodeld in Sources */,
+				CAC8F8EE2740F0A000A11E21 /* Movie+CoreDataClass.swift in Sources */,
+				CAC8F8EF2740F0A000A11E21 /* Movie+CoreDataProperties.swift in Sources */,
 				CADF29122739022F00B2944E /* CoreDataProjectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
